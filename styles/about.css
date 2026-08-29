@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#site-header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#site-header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#about-content {
+  padding: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#about-content ul {
+  line-height: 1.8;
+}
+
+#site-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
