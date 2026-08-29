@@ -19,7 +19,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install --save-dev htmlhint stylelint
+        run: npm install --save-dev htmlhint stylelint@14
 
       - name: Lint HTML
         run: npx htmlhint "src/**/*.html" -c .htmlhintrc.json
