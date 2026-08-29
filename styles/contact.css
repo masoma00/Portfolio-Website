@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#site-header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#site-header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#contact-content {
+  padding: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact-content label {
+  display: block;
+  margin-top: 10px;
+}
+
+#contact-content input, #contact-content textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#contact-content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#site-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
